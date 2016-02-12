@@ -1,6 +1,6 @@
-<section class="slide header">
+<section class="imgbg header">
 	<div class="header-content">
-		<div class="logo">
+		<div class="header-logo">
 			<?xml version="1.0" encoding="utf-8"?>
 			<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 				 x="0px" y="0px" viewBox="0 0 80 80" xml:space="preserve">
@@ -14,17 +14,19 @@
 				c0-0.7-0.2-1.4-0.6-2l3.8-7.3C20.8,71.4,28.1,74.7,36.1,75.6z"/>
 			</svg>
 		</div>
-		<h1>Working<br>with Design Lab</h1>
-		<p>We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.</p>
-		<div class="icon">
-			<?xml version="1.0" encoding="utf-8"?>
-			<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-				 x="0px" y="0px" viewBox="0 0 45 45" xml:space="preserve">
-			<path fill="#FFFFFF" d="M22.5,0.3c-7.6,0-13.8,6.2-13.8,13.8v16.7c0,7.6,6.2,13.8,13.8,13.8c7.6,0,13.8-6.2,13.8-13.8V14.1
-				C36.3,6.5,30.1,0.3,22.5,0.3z M34.3,30.8c0,6.5-5.3,11.8-11.8,11.8s-11.8-5.3-11.8-11.8V14.1c0-6.5,5.3-11.8,11.8-11.8
-				s11.8,5.3,11.8,11.8V30.8z M24.7,14.1c0,1.2-1,2.2-2.2,2.2c-1.2,0-2.2-1-2.2-2.2c0-1.2,1-2.2,2.2-2.2C23.7,11.9,24.7,12.9,24.7,14.1
-				z"/>
-			</svg>
+		<div class="header-text">
+			<h1>Working<br>with Design Lab</h1>
+			<p>We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.</p>
 		</div>
+	</div>
+	<div class="header-icon">
+		<?xml version="1.0" encoding="utf-8"?>
+		<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			 x="0px" y="0px" viewBox="0 0 45 45" xml:space="preserve">
+		<path fill="#FFFFFF" d="M22.5,0.3c-7.6,0-13.8,6.2-13.8,13.8v16.7c0,7.6,6.2,13.8,13.8,13.8c7.6,0,13.8-6.2,13.8-13.8V14.1
+			C36.3,6.5,30.1,0.3,22.5,0.3z M34.3,30.8c0,6.5-5.3,11.8-11.8,11.8s-11.8-5.3-11.8-11.8V14.1c0-6.5,5.3-11.8,11.8-11.8
+			s11.8,5.3,11.8,11.8V30.8z M24.7,14.1c0,1.2-1,2.2-2.2,2.2c-1.2,0-2.2-1-2.2-2.2c0-1.2,1-2.2,2.2-2.2C23.7,11.9,24.7,12.9,24.7,14.1
+			z"/>
+		</svg>
 	</div>
 </section>
