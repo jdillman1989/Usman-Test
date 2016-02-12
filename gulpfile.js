@@ -8,17 +8,17 @@ var imagemin = require('gulp-imagemin');
 
 gulp.task('default', function () {
 
-	gulp.src('./js/*.js')
+	gulp.src('./javascripts/*.js')
 
 	.pipe(uglify())
 
-	.pipe(gulp.dest('./js/min'));
+	.pipe(gulp.dest('./javascripts/min'));
 
-	gulp.src('./sass/*.css')
+	gulp.src('./stylesheets/*.css')
 
 	.pipe(uglifycss())
 
-	.pipe(gulp.dest('./'));
+	.pipe(gulp.dest('./stylesheets/min'));
 
 	gulp.src('./images/*')
 
