@@ -392,63 +392,7 @@ $footer-logo-height: 50;
 
 
 
-@media only screen and (min-width: 320px) {
-
-	h1{
-		font-size: ($fontsizeL - 9) + px;
-	}
-
-	h2{
-		font-size: ($fontsizeM - 3) + px;
-	}
-
-	.imgbg{
-		
-		.content{
-		    -webkit-border-image: none; /* Safari 3.1-5 */
-		    -moz-border-image: none;
-		    -o-border-image: none; /* Opera 11-12.1 */
-		    border-image: none;
-		    border: 2px solid $white;
-		    border-top: none;
-		}
-	}
-
-	.whitebg{
-		
-		.content{
-		    -webkit-border-image: none; /* Safari 3.1-5 */
-		    -moz-border-image: none;
-		    -o-border-image: none; /* Opera 11-12.1 */
-		    border-image: none;
-		    border: 2px solid $darkgray;
-		    border-top: none;
-		}
-	}
-
-	.content{
-		width: 60%; 
-	    padding: 0 45px 25px 45px;
-	}
-
-	.header-content{
-		width: 90%;
-	}
-
-	.edge-item{
-		width: 100%; 
-		height: 150px;
-		margin: 2px 0;
-	}
-
-	.center-item{
-		width: 100%;
-		margin: 2px 0;  
-		height: 150px;
-	}
-}
-
-@media only screen and (min-width: 620px) {
+@media (min-width: 620px) {
 
 	h1{
 		font-size: ($fontsizeL - 3) + px;
@@ -465,7 +409,9 @@ $footer-logo-height: 50;
 		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch; /* Safari 3.1-5 */
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
-		    border-image: url(../../images/content-border-white.png) 1 stretch;			    
+		    border-image: url(../../images/content-border-white.png) 1 stretch;
+			border-style: solid;
+			    
 		}
 	}
 
@@ -477,6 +423,7 @@ $footer-logo-height: 50;
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
 		    border-image: url(../../images/content-border.png) 1 stretch;
+			border-style: solid;
 		}
 	}
 
@@ -502,7 +449,7 @@ $footer-logo-height: 50;
 	}
 }
 
-@media only screen and (min-width: 920px) {
+@media (min-width: 920px) {
 
 	h1{
 		font-size: ($fontsizeL) + px;
@@ -520,6 +467,7 @@ $footer-logo-height: 50;
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
 		    border-image: url(../../images/content-border-white.png) 1 stretch;
+			border-style: solid;
 		}
 	}
 
@@ -531,6 +479,7 @@ $footer-logo-height: 50;
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
 		    border-image: url(../../images/content-border.png) 1 stretch;
+			border-style: solid;
 		}
 	}
 
