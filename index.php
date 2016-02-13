@@ -4,6 +4,8 @@
 
 		<meta charset="utf-8">
 
+		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
 		<title>Usman Group Test</title>
 
 		<link href="stylesheets/min/reset.css" rel="stylesheet" type="text/css" />
