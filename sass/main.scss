@@ -51,7 +51,6 @@ h1{
 	font-weight: 700; 
 	padding-bottom: 30px; 
 	text-transform: uppercase;
-	letter-spacing: ($letterspacing + 1) + px;
 	line-height: 1;
 }
 
@@ -59,15 +58,12 @@ h2{
 	font-weight: 700; 
 	margin-top: (-$fontsizeM * 0.75) + px; 
 	margin-bottom: 40px;
-	letter-spacing: $letterspacing + px;
 	text-transform: uppercase;
 }
 
 h3{
 	font-weight: 700;
-	font-size: ($fontsizeS) + px;
 	padding-bottom: 20px; 
-	letter-spacing: ($letterspacing - 2) + px;
 	text-transform: uppercase;
 }
 
@@ -263,7 +259,6 @@ a{
 
 .inner-content{
 	margin: 0 auto;
-	width: 80%;
 	margin-bottom: 30px;  
 }
 
@@ -393,10 +388,17 @@ $footer-logo-height: 50;
 
 	h1{
 		font-size: ($fontsizeL - 9) + px;
+		letter-spacing: ($letterspacing - 3) + px;
 	}
 
 	h2{
-		font-size: ($fontsizeM - 3) + px;
+		font-size: ($fontsizeM - 4) + px;
+		letter-spacing: ($letterspacing - 3) + px;
+	}
+
+	h3{
+		font-size: ($fontsizeS - 5) + px;
+		letter-spacing: ($letterspacing - 4) + px;
 	}
 
 	.imgbg{
@@ -434,6 +436,10 @@ $footer-logo-height: 50;
 		width: 90%;
 	}
 
+	.inner-content{
+		width: 90%;
+	}
+
 	.edge-item{
 		width: 100%; 
 		height: 150px;
@@ -451,10 +457,17 @@ $footer-logo-height: 50;
 
 	h1{
 		font-size: ($fontsizeL - 3) + px;
+		letter-spacing: ($letterspacing - 1) + px;
 	}
 
 	h2{
 		font-size: ($fontsizeM - 3) + px;
+		letter-spacing: ($letterspacing - 2) + px;
+	}
+
+	h3{
+		font-size: ($fontsizeS - 3) + px;
+		letter-spacing: ($letterspacing - 4) + px;
 	}
 
 	.imgbg{
@@ -490,6 +503,10 @@ $footer-logo-height: 50;
 		width: 80%;
 	}
 
+	.inner-content{
+		width: 80%;
+	}
+
 	.edge-item{
 		width: 49%; 
 		height: 150px;
@@ -507,10 +524,17 @@ $footer-logo-height: 50;
 
 	h1{
 		font-size: ($fontsizeL) + px;
+		letter-spacing: ($letterspacing + 1) + px;
 	}
 
 	h2{
 		font-size: ($fontsizeM) + px;
+		letter-spacing: $letterspacing + px;
+	}
+
+	h3{
+		font-size: ($fontsizeS) + px;
+		letter-spacing: ($letterspacing - 2) + px;
 	}
 
 	.imgbg{
@@ -544,6 +568,10 @@ $footer-logo-height: 50;
 
 	.header-content{
 		width: 60%;
+	}
+
+	.inner-content{
+		width: 80%;
 	}
 
 	.edge-item{
