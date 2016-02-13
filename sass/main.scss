@@ -39,6 +39,7 @@ $font-light: "Signika", Helvetica, Arial, sans-serif;
 body {
 	color: $darkgray;
 	line-height: 1.5;
+	text-align: center;
 }
 
 section{
@@ -107,17 +108,31 @@ form{
 	width: 60%; 
 	margin: 0 auto; 
     padding: 15px;
-    -webkit-border-image: url(images/content-border.jpg) 30 stretch; /* Safari 3.1-5 */
-    -o-border-image: url(images/content-border.jpg) 30 stretch; /* Opera 11-12.1 */
-    border-image: url(images/content-border.jpg) 30 stretch;
 }
 
 .imgbg{
-
+	-webkit-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: $white;
+	
+	.content{
+	    -webkit-border-image: url(images/content-border-white.jpg) 30 stretch; /* Safari 3.1-5 */
+	    -o-border-image: url(images/content-border-white.jpg) 30 stretch; /* Opera 11-12.1 */
+	    border-image: url(images/content-border-white.jpg) 30 stretch;
+	}
 }
 
 .whitebg{
+	background-color: $white; 
+	color: $darkgray;
 	
+	.content{
+	    -webkit-border-image: url(images/content-border.jpg) 30 stretch; /* Safari 3.1-5 */
+	    -o-border-image: url(images/content-border.jpg) 30 stretch; /* Opera 11-12.1 */
+	    border-image: url(images/content-border.jpg) 30 stretch;
+	}
 }
 
 .header{
@@ -129,67 +144,88 @@ form{
 }
 
 .header-content{
-	
+	width: 60%; 
+	margin: 0 auto; 
+    padding: 15px;
 }
 
 .header-logo{
-	
+	margin: 0 auto;
+	height: 80px;
+	width: 80px;  
 }
 
 .header-text{
 	
+	p{
+		text-transform: uppercase;
+	}
 }
 
 .header-icon{
-	
-}
-
-.about-special-formatting{
-	
+	margin: 0 auto;
+	height: 45px;
+	width: 45px;  
 }
 
 .inner-content{
-	
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 30px;  
 }
 
 .icon{
-	
+	margin: 0 auto;
+	width: 90px;
+	height: 90px;  
+	margin-bottom: 20px; 
 }
 
 .inner-text{
 	
 }
 
+.works{
+	@extend %clearfix;
+}
+
+// 29, .5, 41, .5, 29
+
 .edge-item{
-	
+	@extend %clearfix;
+	float: left;
+	width: 29%; 
 }
 
 .center-item{
-	
+	@extend %clearfix;
+	float: left;
+	width: 41%;
+	margin: 0 0.5%;  
 }
 
 .topworkz{
-	
+	background-image: url(images/topworkzbg.jpg);
 }
 
 .joint{
-	
+	background-image: url(images/jointbg.jpg);
 }
 
 .market{
-	
+	background-image: url(images/marketbg.jpg);
 }
 
 .worktop{
-	
+	background-image: url(images/worktopbg.jpg);
 }
 
 .label{
-	
+	background-image: url(images/labelbg.jpg);
 }
 
 .kyiv{
-	
+	background-image: url(images/kyivbg.jpg);
 }
 
 #form-messages{
@@ -201,13 +237,25 @@ form{
 }
 
 #submit{
-	
+	font-family: $font-bold;
+	font-size: ($fontsizeP) + px;
+	padding: 20px; 
+	text-transform: uppercase;
+	background-color: $darkgray;
+	color: $white; 
+}
+
+.footer-logo{
+	display: inline-block;
+	height: 30px;
+	width: 30px;  
 }
 
 .footer{
 
 	p{
-		
+		display: inline-block;
+		font-size: ($fontsizeP - 6) + px;
 	}
 }
 
