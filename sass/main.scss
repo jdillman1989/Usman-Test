@@ -407,7 +407,7 @@ $footer-logo-height: 50;
 		    -o-border-image: none; /* Opera 11-12.1 */
 		    border-image: none;
 		    // border: 2px solid $white;
-		    border-style: solid;
+		    border-style: none;
 		    // border-top: none;
 		}
 	}
@@ -420,7 +420,7 @@ $footer-logo-height: 50;
 		    -o-border-image: none; /* Opera 11-12.1 */
 		    border-image: none;
 		    // border: 2px solid $darkgray;
-		    border-style: solid;
+		    border-style: none;
 		    // border-top: none;
 		}
 	}
@@ -465,8 +465,7 @@ $footer-logo-height: 50;
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
 		    border-image: url(../../images/content-border-white.png) 1 stretch;
-			border-style: solid;
-			    
+			border-style: solid;    
 		}
 	}
 
