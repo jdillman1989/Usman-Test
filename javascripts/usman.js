@@ -106,8 +106,6 @@ $(document).ready(function() {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
-		formMessages.css({"transform":"translate( 0px, 0px)"});
-
 		// Serialize the form data.
 		var formData = $(form).serialize();
 
