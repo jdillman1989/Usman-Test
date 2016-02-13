@@ -390,7 +390,63 @@ $footer-logo-height: 50;
 	}
 }
 
+@media (min-width: 320px) {
 
+	h1{
+		font-size: ($fontsizeL - 9) + px;
+	}
+
+	h2{
+		font-size: ($fontsizeM - 3) + px;
+	}
+
+	.imgbg{
+		
+		.content{
+		    -webkit-border-image: none; /* Safari 3.1-5 */
+		    -moz-border-image: none;
+		    -o-border-image: none; /* Opera 11-12.1 */
+		    border-image: none;
+		    border: 2px solid $white;
+		    border-style: solid;
+		    border-top: none;
+		}
+	}
+
+	.whitebg{
+		
+		.content{
+		    -webkit-border-image: none; /* Safari 3.1-5 */
+		    -moz-border-image: none;
+		    -o-border-image: none; /* Opera 11-12.1 */
+		    border-image: none;
+		    border: 2px solid $darkgray;
+		    border-style: solid;
+		    border-top: none;
+		}
+	}
+
+	.content{
+		width: 60%; 
+	    padding: 0 45px 25px 45px;
+	}
+
+	.header-content{
+		width: 90%;
+	}
+
+	.edge-item{
+		width: 100%; 
+		height: 150px;
+		margin: 2px 0;
+	}
+
+	.center-item{
+		width: 100%;
+		margin: 2px 0;  
+		height: 150px;
+	}
+}
 
 @media (min-width: 620px) {
 
@@ -405,7 +461,7 @@ $footer-logo-height: 50;
 	.imgbg{
 		
 		.content{
-			border: none;
+			// border: none;
 		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch; /* Safari 3.1-5 */
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
@@ -418,7 +474,7 @@ $footer-logo-height: 50;
 	.whitebg{
 		
 		.content{
-			border: none;
+			// border: none;
 		    -webkit-border-image: url(../../images/content-border.png) 1 stretch; /* Safari 3.1-5 */
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
@@ -462,7 +518,7 @@ $footer-logo-height: 50;
 	.imgbg{
 		
 		.content{
-			border: none;
+			// border: none;
 		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch; /* Safari 3.1-5 */
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
@@ -474,7 +530,7 @@ $footer-logo-height: 50;
 	.whitebg{
 		
 		.content{
-			border: none;
+			// border: none;
 		    -webkit-border-image: url(../../images/content-border.png) 1 stretch; /* Safari 3.1-5 */
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
 		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
