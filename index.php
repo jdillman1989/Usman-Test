@@ -18,6 +18,26 @@
 
 	<body>
 		<div class="container">
+
+			<header class="nav animate position">
+				<ul class="main-nav">
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#whatwedo">What We Do</a></li>
+					<li><a href="#works">Our Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</header>
+
+			<div class="mobile-menu animate">
+
+				<div class="mobile-icon-first mobile-icon animate"></div>
+
+				<div class="mobile-icon-second mobile-icon animate"></div>
+
+				<div class="mobile-icon-third mobile-icon animate"></div>
+			</div>
+
 			<?php @include("includes/header.inc.php"); ?>
 			<?php @include("includes/about.inc.php"); ?>
 			<?php @include("includes/services.inc.php"); ?>

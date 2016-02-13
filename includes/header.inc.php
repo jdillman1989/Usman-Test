@@ -1,7 +1,6 @@
 <section class="imgbg header">
 	<div class="header-content">
 		<div class="header-logo">
-			<?xml version="1.0" encoding="utf-8"?>
 			<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 				 x="0px" y="0px" viewBox="0 0 80 80" xml:space="preserve">
 			<path fill="#FFFFFF" d="M72.1,71.8c-0.9,0-1.7,0.3-2.3,0.8L66,65.3c7.2-6.9,11.7-16.5,11.7-27.3C77.7,17.3,60.8,0.4,40,0.4
@@ -20,7 +19,6 @@
 		</div>
 	</div>
 	<div class="header-icon">
-		<?xml version="1.0" encoding="utf-8"?>
 		<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 			 x="0px" y="0px" viewBox="0 0 45 45" xml:space="preserve">
 		<path fill="#FFFFFF" d="M22.5,0.3c-7.6,0-13.8,6.2-13.8,13.8v16.7c0,7.6,6.2,13.8,13.8,13.8c7.6,0,13.8-6.2,13.8-13.8V14.1

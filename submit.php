@@ -1,38 +1,38 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<?php
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+// Get the form fields and remove whitespace.
+$name = strip_tags(trim($_POST["name"]));
+$name = str_replace(array("\r","\n"),array(" "," "),$name);
+$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+$message = trim($_POST["message"]);
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Paris My Sweet</title>
+// Check that data was sent to the mailer.
+if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+	// Set a 400 (bad request) response code and exit.
+	http_response_code(400);
+	echo "Missing Field";
+	return;
+}
+else{
 
-    <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" />
+	// Set the recipient email address.
+	$file = "/var/www/site_mail.txt";
 
-    <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+	// record date
+	date_default_timezone_set('America/Chicago');
+	$timestamp = date('l jS \of F Y h:i:s A');
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	// Build the email content.
+	$email_content = "Sent: $timestamp\n\n";
+	$email_content .= "Name: $name\n";
+	$email_content .= "Email: $email\n\n";
+	$email_content .= "Message:\n$message\n\n";
+	$email_content .= "**********************************\n\n";
 
-    <script type="text/javascript" src="javascripts/jquery.stellar.min.js"></script>
+	file_put_contents($file, $email_content, FILE_APPEND | LOCK_EX);
 
-    <script type="text/javascript" src="javascripts/js.js"></script>
-
-    <?php
-    mail( 'jesse@jdillman.com', 'Contact Form', print_r($_POST,true) );
-    ?>
-
-  </head>
-  
-
-  <body>
-    <div class="container">
-      <?php @include("slides/title2.inc.php"); ?>
-      <?php @include("slides/synopsis.inc.php"); ?>
-      <?php @include("slides/accolades.inc.php"); ?>
-      <?php @include("slides/purchase2.inc.php"); ?>
-    </div>
-  </body>
-
-</html>
+	// Set a 200 (okay) response code.
+	http_response_code(200);
+	echo "Talk to you soon!";
+	return;
+}

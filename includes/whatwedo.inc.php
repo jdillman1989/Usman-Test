@@ -1,9 +1,8 @@
-<section class="whitebg">
+<section class="whitebg" id="whatwedo">
 	<div class="content">
 		<h2>What We Do</h2>
 		<div class="inner-content">
 			<div class="icon">
-				<?xml version="1.0" encoding="utf-8"?>
 				<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 					 x="0px" y="0px" viewBox="0 0 90.1 90.1" xml:space="preserve">
 				<path fill="#3c3c3c" d="M83.7,3.2H71.7c-1.1,0-2,0.9-2,2v4.2H21.6V5.2c0-1.1-0.9-2-2-2H7.7c-1.1,0-2,0.9-2,2v12.3c0,1.1,0.9,2,2,2
@@ -24,10 +23,9 @@
 		</div>
 		<div class="inner-content">
 			<div class="icon">
-				<?xml version="1.0" encoding="utf-8"?>
 				<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 					 x="0px" y="0px" viewBox="0 0 90.1 90.1" xml:space="preserve">
-				<path fill="#FFFFFF" d="M82.5,7.1H7.7C6.5,7.1,5.6,8,5.6,9.2V81c0,1.2,0.9,2.1,2.1,2.1h74.8c1.1,0,2.1-0.9,2.1-2.1V9.2
+				<path fill="#3c3c3c" d="M82.5,7.1H7.7C6.5,7.1,5.6,8,5.6,9.2V81c0,1.2,0.9,2.1,2.1,2.1h74.8c1.1,0,2.1-0.9,2.1-2.1V9.2
 					C84.6,8,83.6,7.1,82.5,7.1z M80.4,78.9H9.7V22.1h70.7V78.9z M80.4,18H9.7v-6.7h70.7V18z M14.8,16.1c0.8,0,1.5-0.7,1.5-1.5
 					c0-0.8-0.7-1.5-1.5-1.5c-0.8,0-1.5,0.7-1.5,1.5C13.3,15.4,14,16.1,14.8,16.1z M19.1,16.1c0.8,0,1.5-0.7,1.5-1.5
 					c0-0.8-0.7-1.5-1.5-1.5c-0.8,0-1.5,0.7-1.5,1.5C17.7,15.4,18.3,16.1,19.1,16.1z M23.5,16.1c0.8,0,1.5-0.7,1.5-1.5
@@ -46,11 +44,10 @@
 		</div>
 		<div class="inner-content">
 			<div class="icon">
-				<?xml version="1.0" encoding="utf-8"?>
 				<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 					 x="0px" y="0px" viewBox="0 0 90.1 92.5" xml:space="preserve">
 				<g>
-					<path fill="#FFFFFF" d="M26.4,38.1c0.3,0.3,0.7,0.5,1.1,0.5c0.4,0,0.8-0.2,1.1-0.5l6.2-6.2c0.6-0.6,0.6-1.6,0-2.2
+					<path fill="#3c3c3c" d="M26.4,38.1c0.3,0.3,0.7,0.5,1.1,0.5c0.4,0,0.8-0.2,1.1-0.5l6.2-6.2c0.6-0.6,0.6-1.6,0-2.2
 						c-0.6-0.6-1.6-0.6-2.2,0l-5.1,5.1l-2-2c-0.6-0.6-1.6-0.6-2.2,0c-0.6,0.6-0.6,1.6,0,2.2L26.4,38.1z M60.1,32.4H41.4
 						c-0.9,0-1.6,0.7-1.6,1.6c0,0.9,0.7,1.6,1.6,1.6h18.7c0.9,0,1.6-0.7,1.6-1.6C61.7,33.1,61,32.4,60.1,32.4z M26.4,64.8
 						c0.3,0.3,0.7,0.5,1.1,0.5c0.4,0,0.8-0.2,1.1-0.5l6.2-6.2c0.6-0.6,0.6-1.6,0-2.2c-0.6-0.6-1.6-0.6-2.2,0l-5.1,5.1l-2-2

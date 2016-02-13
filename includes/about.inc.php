@@ -1,4 +1,4 @@
-<section class="whitebg">
+<section class="whitebg" id="about">
 	<div class="content">
 		<h2>About Us</h2>
 		<p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative and agile.</p>

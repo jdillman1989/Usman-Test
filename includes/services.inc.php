@@ -1,4 +1,4 @@
-<section class="imgbg services">
+<section class="imgbg services" id="services">
 	<div class="content">
 		<h2>Services</h2>
 		<p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
