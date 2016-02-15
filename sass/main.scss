@@ -2,7 +2,6 @@
 
 // Fonts: Lato Bold (h1-h3), Lato Regular (header p), Lato Light (content p),  
 
-/* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
 %clearfix {
 	&:after {
 		content: "";
@@ -277,8 +276,6 @@ a{
 	padding: 0;
 }
 
-// 29, .5, 41, .5, 29
-
 .edge-item{
 	@extend %clearfix;
 	float: left;
@@ -404,26 +401,22 @@ $footer-logo-height: 50;
 	.imgbg{
 		
 		.content{
-		    -webkit-border-image: none; /* Safari 3.1-5 */
+		    -webkit-border-image: none;
 		    -moz-border-image: none;
-		    -o-border-image: none; /* Opera 11-12.1 */
+		    -o-border-image: none;
 		    border-image: none;
-		    // border: 2px solid $white;
 		    border-style: none;
-		    // border-top: none;
 		}
 	}
 
 	.whitebg{
 		
 		.content{
-		    -webkit-border-image: none; /* Safari 3.1-5 */
+		    -webkit-border-image: none;
 		    -moz-border-image: none;
-		    -o-border-image: none; /* Opera 11-12.1 */
+		    -o-border-image: none;
 		    border-image: none;
-		    // border: 2px solid $darkgray;
 		    border-style: none;
-		    // border-top: none;
 		}
 	}
 
@@ -473,10 +466,9 @@ $footer-logo-height: 50;
 	.imgbg{
 		
 		.content{
-			// border: none;
-		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch; /* Safari 3.1-5 */
+		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
-		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
+		    -o-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    border-image: url(../../images/content-border-white.png) 1 stretch;
 			border-style: solid;    
 		}
@@ -485,10 +477,9 @@ $footer-logo-height: 50;
 	.whitebg{
 		
 		.content{
-			// border: none;
-		    -webkit-border-image: url(../../images/content-border.png) 1 stretch; /* Safari 3.1-5 */
+		    -webkit-border-image: url(../../images/content-border.png) 1 stretch;
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
-		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
+		    -o-border-image: url(../../images/content-border.png) 1 stretch;
 		    border-image: url(../../images/content-border.png) 1 stretch;
 			border-style: solid;
 		}
@@ -540,10 +531,9 @@ $footer-logo-height: 50;
 	.imgbg{
 		
 		.content{
-			// border: none;
-		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch; /* Safari 3.1-5 */
+		    -webkit-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    -moz-border-image: url(../../images/content-border-white.png) 1 stretch;
-		    -o-border-image: url(../../images/content-border-white.png) 1 stretch; /* Opera 11-12.1 */
+		    -o-border-image: url(../../images/content-border-white.png) 1 stretch;
 		    border-image: url(../../images/content-border-white.png) 1 stretch;
 			border-style: solid;
 		}
@@ -552,10 +542,9 @@ $footer-logo-height: 50;
 	.whitebg{
 		
 		.content{
-			// border: none;
-		    -webkit-border-image: url(../../images/content-border.png) 1 stretch; /* Safari 3.1-5 */
+		    -webkit-border-image: url(../../images/content-border.png) 1 stretch;
 		    -moz-border-image: url(../../images/content-border.png) 1 stretch;
-		    -o-border-image: url(../../images/content-border.png) 1 stretch; /* Opera 11-12.1 */
+		    -o-border-image: url(../../images/content-border.png) 1 stretch;
 		    border-image: url(../../images/content-border.png) 1 stretch;
 			border-style: solid;
 		}
@@ -586,8 +575,3 @@ $footer-logo-height: 50;
 		height: 150px;
 	}
 }
-
-
-
-
-

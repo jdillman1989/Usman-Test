@@ -3,19 +3,15 @@
 	<head>
 
 		<meta charset="utf-8">
-
 		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 
 		<title>Usman Group Test</title>
 
 		<link href="stylesheets/min/reset.css" rel="stylesheet" type="text/css" />
-
 		<link href="stylesheets/min/main.css" rel="stylesheet" type="text/css" />
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
 		<script type="text/javascript" src="javascripts/min/usman.js"></script>
-
 	</head>
 
 	<body>
@@ -32,11 +28,8 @@
 			</header>
 
 			<div class="mobile-menu animate">
-
 				<div class="mobile-icon-first mobile-icon animate"></div>
-
 				<div class="mobile-icon-second mobile-icon animate"></div>
-
 				<div class="mobile-icon-third mobile-icon animate"></div>
 			</div>
 
